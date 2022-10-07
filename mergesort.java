@@ -22,7 +22,7 @@ class MergeSort {
 
 		merge(a, l, r, mid, n - mid);
 	}
-	public static void merge(
+	public static void merge(// Merges two subarrays of arr[]
 			int[] a, int[] l, int[] r, int left, int right) {
 
 		int i = 0, j = 0, k = 0;
@@ -44,7 +44,7 @@ class MergeSort {
 		}
 	}
 
-	
+	/* A utility function to print array of size n */
 	static void printArray(int arr[])
 	{
 		
